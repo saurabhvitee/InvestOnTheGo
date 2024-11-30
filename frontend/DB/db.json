@@ -1,0 +1,20 @@
+{"profits": [
+    {"Month" : "jan", "profit" : 100, "baseamount":200,"finalamount":300},
+    {"Month" : "feb", "profit" : 200,"baseamount":250,"finalamount":450},
+    {"Month" : "march", "profit" : 300,"baseamount":100,"finalamount":400},
+    {"Month" : "april", "profit" : 400,"baseamount":500,"finalamount":900}
+    ],
+   "distribution": [
+    {"name" :"Gold" , "amount" :500},
+    {"name" : "oil" ,"amount" :600},
+    {"name":"tech" ,"amount": 1000},
+    {"name":"coal","amount":1300}
+    ],
+    "transaction": [
+    {"username" :"Nikita", "amount":5000,"date":"2023-02-08","transaction_type":"credit"},
+    {"username" :"Akila", "amount":6000,"date":"2023-02-09","transaction_type":"deposit"},
+    {"username" :"Pranjal", "amount":7000,"date":"2023-02-02","transaction_type":"debit"},
+    {"username" :"Neha", "amount":8000,"date":"2023-02-04","transaction_type":"debit"},
+    {"username" :"Kanishka", "amount":9000,"date":"2023-05-08","transaction_type":"credit"}
+    ]
+}
