@@ -1,0 +1,53 @@
+[
+
+    {
+        "Asset Class Size": "Large-Cap",
+        "20 Day MA": "$50.45",
+        "60 Day MA": "$50.74",
+        "standard deviation" : " 10%",
+        "volatility" : "25%",
+        "leverage" : "2x",
+        "Beta" : "15",
+        "name" : "A",
+        "five_year_return" : "40.5%",
+        "one_week_return" : "22.4%",
+        "price" : "$30",
+        "cap" : "large cap",
+        "sector" : "bank"
+    },
+
+    {
+        "Asset Class Size": "Large-Cap",
+        "20 Day MA": "$30.45",
+        "60 Day MA": "$250.74",
+        "standard deviation" : " 15%",
+        "volatility" : "70%",
+        "leverage" : "1x",
+        "Beta" : "2",
+        "name" : "B",
+        "five_year_return" : "106.5%",
+        "one_week_return" : "12.4%",
+        "price" : "$20",
+        "cap" : "midcap",
+        "sector" : "bank"
+
+    },
+
+
+    {
+        "Asset Class Size": "Large-Cap",
+        "20 Day MA": "$100.45",
+        "60 Day MA": "$150.74",
+        "standard deviation" : " 30%",
+        "volatility" : "20%",
+        "leverage" : "3x",
+        "Beta" : "10",
+        "name" : "C",
+        "five_year_return" : "26.5%",
+        "one_week_return" : "12.4%",
+        "price" : "$10",
+        "cap" : "small cap",
+        "sector" : "bank"
+    }
+
+]
