@@ -1,31 +1,31 @@
-# Cash By Chance
+# Project: InvestOnTheGo
 
-Cash By Chance is a combination of a wallet/upi app with automatic smart investment integration. It would make the entire investment process completely painless. 
+## Brief Overview:
+InvestOnTheGo is a premium wallet/UPI app with automatic investment integration. It simplifies financial planning by allowing users to save and invest a portion of their payments automatically. The app analyzes the user's profile to invest savings into various funds, optimizing for quicker fund growth compared to traditional savings accounts. This integration of e-wallet and investment functionalities provides a hassle-free method for users to manage their finances.
 
-## How would this work?
+## Tech Stack:
+- **Programming Languages**: Python, JavaScript, CSS, HTML
+- **Web Server**: Apache
+- **Data Storage**: MySQL
+- **Backend Framework**: FastAPI
+- **Frontend Framework**: React, Lodash 
 
-An average user makes somewhere from 50-100+ transactions a month on UPI/wallets
-Most of these transactions are odd amounts which are not whole. Ex : Rs.11, Rs.23, Rs.42
-We can round off these transactions to the nearest whole number say Rs.20 Rs.30 or Rs.50 and invest the difference automatically into funds and other instruments based on the user’s risk profile
+## Key Features:
+- **Automated Savings and Investments**: The app automatically saves a portion of each payment into a savings wallet and invests it into various funds based on user profiles.
+- **User Authentication**: Implemented through JSON Web Tokens (JWT) for secure transactions and user identification .
+- **Portfolio Management**: Includes features like portfolio rebalancing and investment distribution to manage funds effectively  .
+- **Wallet Functionality**: Supports typical payment transactions and withdrawals, with additional savings calculations for each payment .
+- **Database Design**: Comprehensive schema to manage user details, investment summaries, and transaction histories .
 
-At the end of the month, we can highlight the returns form the auto investments as “rewards”.
-When onboarding a user, we would ask a basic questionnaire that will help us establish the investor profile including their risk appetite and performance expectations
-We would automatically find potential investment opportunities for them, pool funds together and invest automatically
-The project would combine Gpay/Paytm style ease of payments with the benefit of automated portfolio management attached to it.
+## Code Quality and Modularity:
+- Adheres to SOLID principles and proper logging frameworks.
+- Clean code practices following PEP 8 conventions.
+- Well-documented code using docstrings for improved readability and maintenance  .
 
-Refer to the Readme of the following four folders to get better understanding of working of the project-:
-1. pyetf  :  Module which uses etfdb.com to fetch market data.
-2. backend : A fastapi based rest backend.
-3. frontend : A react frontend.
-4. backend/rebalancing : The trade optimizer and rebalancing workflow.
+## Future Enhancements:
+- Real-time withdrawals and investments.
+- Expansion of investment options to include bonds, futures, and options.
+- Enhanced profitability analysis and new investment strategies.
+- Improved matchmaking algorithms for better investment recommendations .
 
-# CREDITS
-
-### By : SeniHers Group 5 
-###### Mentor   -   Chaitanya Chitneedi
-##### Mentees - 
- 1. Akila Sivakumar
- 2. Kanishka Thakran
- 3. Neha Tiwari
- 4. Nikita Singh
- 5. Pranjal Nirwan
+This project aims to revolutionize the concept of loose change by integrating automatic savings with investment opportunities, providing users with a seamless and efficient financial management tool.
